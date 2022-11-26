@@ -1,0 +1,69 @@
+body{
+    animation: background-move 6s ease-in-out forwards;
+
+}
+
+.harry{
+    animation-name: harry;
+    animation-duration:4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: ;
+    animation-playsate */
+    /* left: -20%; */
+    animation-name: bringpotterback;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    /* animation-iteration-count: infinite; */
+}
+
+.flying{
+    animation-name: villian;
+    animation-duration: 3s;
+    animation-timing-function:ease-out;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes harry{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes villian{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes background-move{
+    0%{
+        background-position: 0px 1px;
+    }
+    100%{
+        background-position: -5000px 1px;
+    }
+}
+
+@keyframes bringpotterback{
+    0%{
+        left:-17% ;
+    }
+    100%{
+        left: 18%;;
+    }
+}

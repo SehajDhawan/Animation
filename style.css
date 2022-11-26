@@ -1,0 +1,22 @@
+/* setting the elements to set the background */
+ body{
+    background-color: rgba(114,155,151,255);
+      background-image: url(bg2.jpg);
+      /* background-repeat: repeat-x; */
+      background-repeat: repeat-x;
+                  /*to repeat it in x direction */
+ }
+ .harry{
+  width: 20%;
+  height: 30%;
+  position: absolute;
+  top: 25%; 
+  transform: rotateY(40deg);
+ }
+ .flying{
+  width: 50%;
+  height: 25%;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+ }
